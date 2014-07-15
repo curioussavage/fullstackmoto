@@ -18,7 +18,7 @@ photomodule.controller('photoUploadCtrl', ['$scope', '$rootScope', '$routeParams
 
                 dropZone: "#direct_upload",
                 start: function (e) {
-                    debugger;
+
                     $scope.status = "Starting upload...";
                     $scope.$apply();
                 },

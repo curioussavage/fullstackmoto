@@ -21,8 +21,6 @@ angular.module('appyApp')
         };
 
 
-
-
         var myOtherModal = $modal({scope: $scope, template: '../../views/modal.html', show: false});
         // Show when some event occurs (use $promise property to ensure the template has been loaded)
         $scope.toggleModal = function(result) {

@@ -28,6 +28,11 @@ angular.module('appyApp', [
         controller: 'SettingsCtrl',
         authenticate: true
       })
+      .when('/search', {
+            templateUrl: 'partials/search',
+            controller: 'SearchCtrl'
+
+        })
       .otherwise({
         redirectTo: '/'
       });

@@ -8,6 +8,9 @@ angular.module('appyApp')
     }, {
       'title': 'Dashboard',
       'link': '/settings'
+    },{
+        'title': 'Search',
+        'link': '/search'
     }];
     
     $scope.logout = function() {
